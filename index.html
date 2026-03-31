@@ -123,23 +123,23 @@
   .chips-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 3px;
+    gap: 5px;
     justify-content: center;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.4rem;
   }
 
   .name-chip {
     position: relative;
     display: flex;
     align-items: center;
-    gap: 3px;
-    padding: 4px 8px;
+    gap: 4px;
+    padding: 8px 12px;
     background: var(--surface);
     border: 1px solid transparent;
     border-radius: 999px;
     cursor: pointer;
     transition: all 0.15s ease;
-    font-size: 0.72rem;
+    font-size: 0.85rem;
     font-weight: 600;
     user-select: none;
     color: var(--text-muted);
@@ -170,7 +170,7 @@
   .name-chip input { position: absolute; opacity: 0; width: 0; height: 0; }
 
   .chip-dot {
-    width: 5px; height: 5px;
+    width: 7px; height: 7px;
     border-radius: 50%;
     background: var(--surface-hover);
     transition: all 0.15s ease;
@@ -455,13 +455,13 @@
     .wheel-stage { width: 160px; height: 160px; }
     .wheels-row { gap: 1rem; }
     .phase-label { font-size: 0.65rem; }
-    .name-chip { font-size: 0.78rem; padding: 5px 10px; }
+    .name-chip { font-size: 0.9rem; padding: 10px 14px; }
   }
 
   @media (max-width: 374px) {
     .wheel-stage { width: 85px; height: 85px; }
     .wheels-row { gap: 0.25rem; }
-    .name-chip { padding: 3px 6px; font-size: 0.62rem; }
+    .name-chip { padding: 6px 8px; font-size: 0.75rem; }
   }
 </style>
 </head>
